@@ -47,7 +47,7 @@ class GifPage extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
-                RaisedButton(
+                FlatButton(
                     textColor: Colors.white,
                     color: Theme.of(context).accentColor,
                     shape: RoundedRectangleBorder(
